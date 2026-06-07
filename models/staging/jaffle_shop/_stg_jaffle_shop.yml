@@ -12,3 +12,13 @@ models:
         tests:
           - unique
           - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - completed
+                  - return_pending
+                  - shipped
+                  - returned
+                  - placed
