@@ -5,9 +5,6 @@ packages:
 - package: dbt-labs/codegen
   name: codegen
   version: 0.13.1
-- package: brooklyn-data/dbt_artifacts
-  name: dbt_artifacts
-  version: 2.6.4
 - package: calogica/dbt_date
   name: dbt_date
   version: 0.10.0
@@ -17,4 +14,4 @@ packages:
 - package: dbt-labs/dbt_utils
   name: dbt_utils
   version: 1.1.1
-sha1_hash: 0254b71e83f55bd1fd0086f805a8645a7a6e0f34
+sha1_hash: 27b21e19d5fe8beff8ef43ef9d98280ae0637f91
