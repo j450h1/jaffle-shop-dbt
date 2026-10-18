@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "dbt": {
+      "command": "/Users/jas/.local/bin/uvx",
+      "args": ["dbt-mcp"],
+      "env": {
+        "DBT_HOST": "qk733.us1.dbt.com",
+        "DBT_PROJECT_DIR": "/Users/jas/github/jaffle-shop-dbt",
+        "DBT_PATH": "/Users/jas/.local/bin/dbt"
+      }
+    }
+  }
+}
